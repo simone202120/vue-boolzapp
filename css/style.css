@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d5dbda;
+    position: relative;
+}
+
+header{
+    height:100px;
+    background-color: #009688;
+}
+
+#app{
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    border: dotted 2px black;
+    top: 30px;
+    left: 10%;
+    display: flex;
+}
+
+.border{
+    border: dotted 2px red;
+}
+
+.contatti{
+    width: 35%;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.chat{
+    width: 65%;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/236x/5d/e5/36/5de536d85d28cf554b58a242d67ce8dd.jpg');
+}
+
+.flex{
+    display: flex;
+}
+
+.user{
+    background-color: #eaeaea;
+    height: 10%;
+    padding: 3px;
+    justify-content: space-between;
+}
+.userChat{
+    background-color: #eaeaea;
+    height: 10%;
+    padding: 3px;
+    justify-content: space-between;
+}
+.profilo{
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+#nome{
+    align-items: center;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.menuUser{
+    color: #b1b1b1;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 15px;
+}
+
+.notifiche{
+    height: 12%;
+    background-color: #8edafc;
+    align-items: center;
+    
+}
+
+.iconNotifica{
+    background-color: white;
+    color: #8edafc;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.NotificheOn p{
+    font-size: 13px;
+}
+.NotificheOn a{
+    font-size: 10px;
+    color: black;
+}
