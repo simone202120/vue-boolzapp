@@ -12,56 +12,90 @@
         <header>
 
         </header>
-            <main id="app">
-                <div class="contatti">
-                    <div class="user flex">
-                        <div class="imgUser flex">
-                            <img class="profilo"src="img/avatar_io.jpg" alt="Immagine Profilo">
-                            <div id="nome" class="flex">Sofia</div>
-                        </div>
-
-                        <div class="menuUser flex">
-                            <i class="fa-solid fa-arrow-rotate-right icon"></i>
-                            <i class="fa-solid fa-message icon"></i>
-                            <i class="fa-solid fa-ellipsis-vertical icon"></i>
-                        </div>
+        <main id="app">
+            <div class="contatti">
+                <div class="user flex">
+                    <div class="imgUser flex">
+                        <img class="profilo"src="img/avatar_io.jpg" alt="Immagine Profilo">
+                        <div id="nome" class="flex">Sofia</div>
                     </div>
 
-                    <div class="notifiche flex">
-                        <div class="iconNotifica flex">
-                            <i class="fa-solid fa-bell-slash"></i>
-                        </div>
-                        <div class="NotificheOn">
-                           <p> Ricevi notifiche di altri messaggi</p>
-                           <a href="">Attiva Notifiche desktop</a>
-                        </div>
+                    <div class="menuUser flex">
+                        <i class="fa-solid fa-arrow-rotate-right icon"></i>
+                        <i class="fa-solid fa-message icon"></i>
+                        <i class="fa-solid fa-ellipsis-vertical icon"></i>
                     </div>
                 </div>
 
-                <div class="chat">
-                    <div class="userChat flex">
-                        <div class="imgUser flex">
-                            <img class="profilo"src="img/avatar_1.jpg" alt="Immagine Profilo">
-                            <div id="nome" class="flex">Sofia</div>
-                        </div>
-
-                        <div class="menuUser flex">
-                            <i class="fa-solid fa-magnifying-glass icon"></i></i>
-                            <i class="fa-solid fa-paperclip icon"></i>
-                            <i class="fa-solid fa-ellipsis-vertical icon"></i>
-                        </div>
+                <div class="notifiche flex">
+                    <div class="iconNotifica flex">
+                        <i class="fa-solid fa-bell-slash"></i>
+                    </div>
+                    <div class="NotificheOn">
+                        <p> Ricevi notifiche di altri messaggi</p>
+                        <a href="">Attiva Notifiche desktop</a>
                     </div>
                 </div>
 
+                <div id="search">
+                    <div class="flex">
+                        <button id="cerca"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input id="cerca_contatto" type="text" value="cerca o inizia una nuova chat" >
+                    </div>
+                </div>
+
+                <div class="containerChat">
+                    <div class="allChat flex">
+                        <div class="picprofilo">
+                            <img class="fotoProfilo"src="img/avatar_1.jpg" alt="immagine profilo utente">
+                        </div>
+                        <div class="containercontatto">
+                            <p id="contatto">Michele </p>
+                            <p id="lastmessage">ultimo messaggio</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat">
+                <div class="userChat flex">
+                    <div class="imgUser flex">
+                        <img class="profilo"src="img/avatar_1.jpg" alt="Immagine Profilo">
+                        <div id="nome" class="flex">Sofia</div>
+                    </div>
+
+                    <div class="menuUser flex">
+                        <i class="fa-solid fa-magnifying-glass icon"></i></i>
+                        <i class="fa-solid fa-paperclip icon"></i>
+                        <i class="fa-solid fa-ellipsis-vertical icon"></i>
+                    </div>
+                </div>
+
+                <div class="newMessage flex">
+                    <div class="smile">
+                        <i class="fa-regular fa-face-smile"></i>
+                    </div>
+
+                    <div class="messageText">
+                        <input id="writeMessage"type="text" value="Scrivi un messaggio" >
+                    </div>
+
+                    <div class="audio">
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+
+                </div>
+            </div>
 
 
 
-            
+
+        
 
 
 
 
-            </main>
+        </main>
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
