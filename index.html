@@ -45,9 +45,9 @@
                 </div>
 
                 <div class="containerChat">
-                    <div class="allChat flex">
+                    <div v-for="contact in contacts"class="allChat flex">
                         <div class="picprofilo">
-                            <img v-for="contact in contacts"class="fotoProfilo" :src="img/avatar + 'contacts.avatar'.jpg" alt="immagine profilo utente">
+                            <img class="fotoProfilo" src="img/avatar_1.jpg" alt="immagine profilo utente">
                         </div>
                         <div class="containercontatto">
                             <p id="contatto">Michele </p>
