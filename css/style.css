@@ -186,5 +186,27 @@ header{
 
 .containerChat{
     max-height: 72%;
-    overflow: scroll
+    overflow-y: scroll
+}
+
+.chatMessage{
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+.sent{
+    float: right;
+    background-color: rgb(97, 213, 97);
+    margin-right: 20px;
+    clear: both;
+}
+.received{
+    float: left;
+    background-color: #eaeaea;
+    margin-left: 20px;
+    clear: both;
+
 }
