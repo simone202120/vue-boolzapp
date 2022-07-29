@@ -71,7 +71,7 @@
                     </div>
                 </div>
 
-                <div v-for="(message, index) in contacts[messaggioSelez].messages" v-bind:class="'chatMessage ' + message.status "">
+                <div v-for="(message, index) in contacts[messaggioSelez].messages" v-bind:class="'chatMessage ' + message.status">
                     <span class="message-text">{{message.message}}</span>
                 </div>
                 

@@ -178,6 +178,7 @@ const app= new Vue ({
 
         contattoAttivo(indice){
             this.contattoAttivo=indice;
+            console.log('sono nella funzione')
         }
 
 
